@@ -1,0 +1,93 @@
+/* ---------- Buttons ---------- */
+.btn {
+    padding:6px 20px;
+    font-size:1em;
+    line-height:1.8;
+    font-weight: $fw_700;
+    background-color:$drk_grey;
+    color:$white_clr;
+    border:$none;
+    outline:$none;
+    box-shadow:$none;
+    white-space: initial;
+    &:hover, &:focus {
+        background-color:$pink_clr;
+        color:$white_clr;
+        border:$none;
+        outline:$none;
+        box-shadow:$none;
+    }    
+    span {
+        display: block;
+        font-size:0.7em;
+    }
+}
+.btn_linkp {
+    background-color:$no_clr;
+    color:$pink_clr;
+    &:hover, &:active, &:focus {
+        background-color:$no_clr;
+        color:$drk_grey;
+    }
+}
+.btn_linkg {
+    background-color:$no_clr;
+    color:$drk_grey;
+    &:hover, &:active, &:focus {
+        background-color:$no_clr;
+        color:$pink_clr;
+    }
+}
+.btn_box {
+    background-color:$drk_grey;
+    color:$white_clr;
+    &:hover, &:active, &:focus {
+        background-color:$pink_clr;
+        color:$white_clr;
+    }
+}
+.btn_green {
+    background-color:$green_clr;
+    color:$white_clr;
+    &:hover, &:active, &:focus {
+        background-color:$medium_grey;
+        color:$white_clr;
+    }
+}
+.btn_pink {
+    background-color:$pink_clr;
+    color:$white_clr;
+    &:hover, &:active, &:focus {
+        background-color:$medium_grey;
+        color:$white_clr;
+    }
+}
+.btn_md_grey {
+    background-color:$medium_grey;
+    color:$white_clr;
+    &:hover, &:active, &:focus {
+        background-color:$drk_grey;
+        color:$white_clr;
+    }
+}
+.share_btn {
+    background-color: $no_clr;
+    border:$border_999;
+    color: $drk_grey;
+    display:$inline_block;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    line-height:1.4;
+    &:hover, &:focus {
+        background-color: $no_clr;
+        border:$border_pink;
+        color: $pink_clr;
+    }
+    i {
+        margin-right:5px;
+    }
+    @media (max-width: $break_991) {
+        font-size:1em;
+    }
+}

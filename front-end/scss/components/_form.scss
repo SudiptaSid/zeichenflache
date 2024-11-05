@@ -1,0 +1,28 @@
+/* ---------- Form ---------- */
+.form-control {
+    border:$border_e5;
+    color:$black_clr;
+    outline:$none;
+    box-shadow:$none;
+    font-size:1em;
+    &:focus {
+        outline:$none;
+        box-shadow:$none;
+        border:$border_pink;
+    }
+}
+select.form-control {
+    -webkit-appearance: none;
+    background-image: url(../images/down-arrow.png);
+    background-repeat:no-repeat;
+    background-position: 95%;
+    background-size: 10px;
+}
+label {
+    font-weight:$fw_700;
+    color:$drk_grey;
+    margin-bottom:0px;
+    span {
+        font-weight:$fw_400;
+    }
+}

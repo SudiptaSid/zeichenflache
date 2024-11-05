@@ -1,0 +1,684 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Zeichenfläche</title>
+
+	<!-- App favicon -->
+    <link rel="shortcut icon" href="images/favicon.png">
+
+	<!-- Custom -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- Navbar -->
+	<section id="cs_nav">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg">
+				<a class="navbar-brand" href="#">
+					<img src="images/logo.png" alt="">
+				</a>
+				<button aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarContent" data-toggle="collapse" type="button">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarContent">
+					<ul class="navbar-nav nav_left">
+						<li class="nav-item dropdown megamenu">
+							<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="" id="megamneu1">Produkte <i class="fa fa-angle-down"></i></a>
+							<div aria-labelledby="megamneu1" class="dropdown-menu">
+								<div class="menu_body">
+									<div class="row">
+										<div class="col-md-4">
+											<h5>MegaMenu heading 1</h5>
+											<ul class="list-unstyled">
+												<li class="nav-item">
+													<a class="nav-link" href="">Unique Features</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Image Responsive</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Auto Carousel</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Newsletter Form</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<h5>MegaMenu heading</h5>
+											<ul class="list-unstyled">
+												<li class="nav-item">
+													<a class="nav-link" href="">Unique Features</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Image Responsive</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Auto Carousel</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Newsletter Form</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<h5>MegaMenu heading</h5>
+											<ul class="list-unstyled">
+												<li class="nav-item">
+													<a class="nav-link" href="">Unique Features</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Image Responsive</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Auto Carousel</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Newsletter Form</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item dropdown megamenu">
+							<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="" id="megamneu2">Kategorie <i class="fa fa-angle-down"></i></a>
+							<div aria-labelledby="megamneu2" class="dropdown-menu">
+								<div class="menu_body">
+									<div class="row">
+										<div class="col-md-4">
+											<h5>MegaMenu heading 2</h5>
+											<ul class="list-unstyled">
+												<li class="nav-item">
+													<a class="nav-link" href="">Unique Features</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Image Responsive</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Auto Carousel</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Newsletter Form</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<h5>MegaMenu heading</h5>
+											<ul class="list-unstyled">
+												<li class="nav-item">
+													<a class="nav-link" href="">Unique Features</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Image Responsive</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Auto Carousel</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Newsletter Form</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<h5>MegaMenu heading</h5>
+											<ul class="list-unstyled">
+												<li class="nav-item">
+													<a class="nav-link" href="">Unique Features</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Image Responsive</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Auto Carousel</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Newsletter Form</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item dropdown megamenu">
+							<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="" id="megamneu3">Verkaufte Produkte <i class="fa fa-angle-down"></i></a>
+							<div aria-labelledby="megamneu3" class="dropdown-menu">
+								<div class="menu_body">
+									<div class="row">
+										<div class="col-md-4">
+											<h5>MegaMenu heading 3</h5>
+											<ul class="list-unstyled">
+												<li class="nav-item">
+													<a class="nav-link" href="">Unique Features</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Image Responsive</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Auto Carousel</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Newsletter Form</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<h5>MegaMenu heading</h5>
+											<ul class="list-unstyled">
+												<li class="nav-item">
+													<a class="nav-link" href="">Unique Features</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Image Responsive</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Auto Carousel</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Newsletter Form</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<h5>MegaMenu heading</h5>
+											<ul class="list-unstyled">
+												<li class="nav-item">
+													<a class="nav-link" href="">Unique Features</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Image Responsive</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Auto Carousel</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Newsletter Form</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="">Partners</a>
+						</li>
+					</ul>
+				</div>
+				<ul class="navbar-nav ml-auto nav_right">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="account_drp" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i><span>Sign in</span>My accoount</a>
+						<div class="dropdown-menu" aria-labelledby="account_drp">
+							<a class="nav-link" href="#">Profile</a>
+							<a class="nav-link" href="#">Settings</a>
+							<a class="nav-link" href="#">Logout</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">
+							<i class="fa fa-heart"></i>
+							<span>
+								<span>0</span>
+							</span>
+							Favorites
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</section>
+	<!-- Banner -->
+	<section id="cs_banner">
+		<div class="owl-carousel owl-theme" id="banner_slider">
+			<div class="item">
+				<img src="images/banner.jpg" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="content">
+								<a href="#" class="btn btn_linkp">Mehr erfahren <i class="fa fa-angle-right"></i></a>
+								<a href="#" class="btn btn_box">
+									<span>Open room for</span>
+									CHF 5.00
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img src="images/banner.jpg" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="content">
+								<a href="#" class="btn btn_linkp">Mehr erfahren <i class="fa fa-angle-right"></i></a>
+								<a href="#" class="btn btn_box">
+									<span>Open room for</span>
+									CHF 5.00
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="item">
+				<img src="images/banner.jpg" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div class="content">
+								<a href="#" class="btn btn_linkp">Mehr erfahren <i class="fa fa-angle-right"></i></a>
+								<a href="#" class="btn btn_box">
+									<span>Open room for</span>
+									CHF 5.00
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Brand Section -->
+	<section id="cs_brand">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<ul class="clearfix">
+						<li>
+							<a href="#">
+								<img src="images/part1.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/part2.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/part3.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/part4.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/part5.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/part6.jpg" alt="">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<img src="images/part7.jpg" alt="">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Filter Section -->
+	<section id="cs_filter">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2">
+					<select name="" id="" class="form-control">
+							<option value="">Preis absteigend</option>
+							<option value="">Preis absteigend</option>
+					</select>
+				</div>
+				<div class="col-lg-8">
+					<ul>
+						<li>
+							<a href="#" class="active">All</a>
+						</li>
+						<li>
+							<a href="#">Computer</a>
+						</li>
+						<li>
+							<a href="#">Beauty & Gesundheit</a>
+						</li>
+						<li>
+							<a href="#">TV & Audio</a>
+						</li>
+						<li>
+							<a href="#">Wohen</a>
+						</li>
+						<li>
+							<a href="#">Fashion</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" id="mehr_drp" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Mehr <i class="fa fa-angle-down"></i></a>
+							<div class="dropdown-menu" aria-labelledby="mehr_drp">
+								<a class="dropdown-item" href="#">Schmuck</a>
+								<a class="dropdown-item" href="#">Buch</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<div class="col-lg-2">
+					<div class="view_filtr">
+						<a href="#">
+							<img src="images/list_view.png" alt="">
+						</a>
+						<a href="#" class="active">
+							<img src="images/grid_view.png" alt="">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Product Section -->
+	<section id="cs_product" class="product_grid_view">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="product_grid">
+						<div class="p_header">
+							<h5>
+								<span>Gonser</span>
+								Starting at CHF 1049.00
+							</h5>
+							<div class="icon_sec">
+								<a href="#">
+									<i class="fa fa-heart"></i>
+								</a>
+								<a href="#">
+									<i class="fa fa-search"></i>
+								</a>
+							</div>
+						</div>
+						<div class="p_content">
+							<a href="#" class="img_sec">
+								<img src="images/product_1.jpg" alt="">
+							</a>
+							<h4>
+								<a href="#">E-Bike Mountainbike 27.5" SIGNAL-S</a>
+							</h4>
+						</div>
+						<div class="p_footer clearfix">
+							<a href="#" class="btn btn_linkp">Details <i class="fa fa-angle-right"></i></a>
+							<a href="#" class="btn btn_box">
+								<span>Open room for</span>
+								CHF 5.00
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="product_grid">
+						<div class="p_header">
+							<h5>
+								<span>Dji</span>
+								Starting at CHF 3‘399.00
+							</h5>
+							<div class="icon_sec">
+								<a href="#">
+									<i class="fa fa-heart"></i>
+								</a>
+								<a href="#">
+									<i class="fa fa-search"></i>
+								</a>
+							</div>
+						</div>
+						<div class="p_content">
+							<a href="#" class="img_sec">
+								<img src="images/product_2.jpg" alt="">
+							</a>
+							<h4>
+								<a href="#">Inspire 2 - POWER BEYOND IMAGINATION</a>
+							</h4>
+						</div>
+						<div class="p_footer clearfix">
+							<a href="#" class="btn btn_linkp">Details <i class="fa fa-angle-right"></i></a>
+							<a href="#" class="btn btn_box">
+								<span>Open room for</span>
+								CHF 5.00
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="product_grid">
+						<div class="p_header">
+							<h5>
+								<span>Microsoft</span>
+								Starting at CHF 2199.00
+							</h5>
+							<div class="icon_sec">
+								<a href="#">
+									<i class="fa fa-heart"></i>
+								</a>
+								<a href="#">
+									<i class="fa fa-search"></i>
+								</a>
+							</div>
+						</div>
+						<div class="p_content">
+							<a href="#" class="img_sec">
+								<img src="images/product_3.jpg" alt="">
+							</a>
+							<h4>
+								<a href="#">MICROSOFT Surface Book 2 - Convertible 2 in 1 Laptop </a>
+							</h4>
+						</div>
+						<div class="p_footer clearfix">
+							<a href="#" class="btn btn_linkp">Details <i class="fa fa-angle-right"></i></a>
+							<a href="#" class="btn btn_box">
+								<span>Open room for</span>
+								CHF 5.00
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="product_grid">
+						<div class="p_header">
+							<h5>
+								<span>Gonser</span>
+								Starting at CHF 1049.00
+							</h5>
+							<div class="icon_sec">
+								<a href="#">
+									<i class="fa fa-heart"></i>
+								</a>
+								<a href="#">
+									<i class="fa fa-search"></i>
+								</a>
+							</div>
+						</div>
+						<div class="p_content">
+							<a href="#" class="img_sec">
+								<img src="images/product_1.jpg" alt="">
+							</a>
+							<h4>
+								<a href="#">E-Bike Mountainbike 27.5" SIGNAL-S</a>
+							</h4>
+						</div>
+						<div class="p_footer clearfix">
+							<a href="#" class="btn btn_linkp">Details <i class="fa fa-angle-right"></i></a>
+							<a href="#" class="btn btn_box">
+								<span>Open room for</span>
+								CHF 5.00
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="product_grid">
+						<div class="p_header">
+							<h5>
+								<span>Dji</span>
+								Starting at CHF 3‘399.00
+							</h5>
+							<div class="icon_sec">
+								<a href="#">
+									<i class="fa fa-heart"></i>
+								</a>
+								<a href="#">
+									<i class="fa fa-search"></i>
+								</a>
+							</div>
+						</div>
+						<div class="p_content">
+							<a href="#" class="img_sec">
+								<img src="images/product_2.jpg" alt="">
+							</a>
+							<h4>
+								<a href="#">Inspire 2 - POWER BEYOND IMAGINATION</a>
+							</h4>
+						</div>
+						<div class="p_footer clearfix">
+							<a href="#" class="btn btn_linkp">Details <i class="fa fa-angle-right"></i></a>
+							<a href="#" class="btn btn_box">
+								<span>Open room for</span>
+								CHF 5.00
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="product_grid">
+						<div class="p_header">
+							<h5>
+								<span>Microsoft</span>
+								Starting at CHF 2199.00
+							</h5>
+							<div class="icon_sec">
+								<a href="#">
+									<i class="fa fa-heart"></i>
+								</a>
+								<a href="#">
+									<i class="fa fa-search"></i>
+								</a>
+							</div>
+						</div>
+						<div class="p_content">
+							<a href="#" class="img_sec">
+								<img src="images/product_3.jpg" alt="">
+							</a>
+							<h4>
+								<a href="#">MICROSOFT Surface Book 2 - Convertible 2 in 1 Laptop </a>
+							</h4>
+						</div>
+						<div class="p_footer clearfix">
+							<a href="#" class="btn btn_linkp">Details <i class="fa fa-angle-right"></i></a>
+							<a href="#" class="btn btn_box">
+								<span>Open room for</span>
+								CHF 5.00
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Footer -->
+	<footer>
+		<!-- Footer Top -->
+		<section id="footer_top">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<ul class="clearfix">
+							<li><img src="images/fpart1.jpg" alt=""></li>
+							<li><img src="images/fpart2.jpg" alt=""></li>
+							<li><img src="images/fpart3.jpg" alt=""></li>
+							<li><img src="images/fpart4.jpg" alt=""></li>
+							<li><img src="images/fpart5.jpg" alt=""></li>
+							<li><img src="images/fpart6.jpg" alt=""></li>
+							<li><img src="images/fpart7.jpg" alt=""></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Footer Bottom -->
+		<section id="footer_bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-3">
+						<h4>Bestellen</h4>
+						<ul>
+							<li><a href="#">Geschenkkarte</a></li>
+							<li><a href="#">Zahlungsarten</a></li>
+							<li><a href="#">Versandkosten</a></li>
+							<li><a href="#">Retouren</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-md-3">
+						<h4>Rech</h4>
+						<ul>
+							<li><a href="#">Impressum</a></li>
+							<li><a href="#">Nutzungsbedingungen</a></li>
+							<li><a href="#">Datenschutzbestimmungen</a></li>
+							<li><a href="#">AGB</a></li>
+							<li><a href="#">Produktrückrufe</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-md-3">
+						<h4>Unternehmen</h4>
+						<ul>
+							<li><a href="#">Über uns</a></li>
+							<li><a href="#">Jobs</a></li>
+							<li><a href="#">Presse</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-md-3">
+						<h4>Hilfe</h4>
+						<ul>
+							<li><a href="#">FAQs & Kontakt</a></li>
+						</ul>
+						<h4>Social Media</h4>
+						<div class="f_social">
+							<a href="#"><i class="fa fa-facebook-f"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-instagram"></i></a>
+							<a href="#"><i class="fa fa-youtube"></i></a>
+							<a href="#"><i class="fa fa-google"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</footer>
+
+	<!-- Jquery min -->
+	<script src="js/jquery.min.js"></script>
+
+	<!-- Popper Min -->
+	<script src="plugins/bootstrap/js/popper.min.js"></script>
+
+	<!-- Bootstrap -->
+	<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Owl Carousel -->
+	<script src="plugins/owl-carousel/js/owl.carousel.min.js"></script>
+	<script src="plugins/owl-carousel/js/OwlCarousel2Thumbs.min.js"></script>
+
+	<!-- Star Rating -->
+	<script src="plugins/star_rating/star-rating.js"></script>
+
+	<!-- Date Countdown -->
+	<script src="plugins/countdown/countdown.js"></script>
+
+	<!-- Custom -->
+	<script src="js/default.js"></script>
+</body>
+</html>

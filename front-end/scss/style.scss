@@ -1,0 +1,27 @@
+// Bootstrap
+@import "../plugins/bootstrap/scss/bootstrap.scss";
+
+// Font Awesome
+@import "../plugins/font-awesome/scss/font-awesome.scss";
+
+// Owl Carousel
+@import "../plugins/owl-carousel/scss/owl.carousel.scss";
+@import "../plugins/owl-carousel/scss/owl.theme.default.scss";
+
+// Acumin Pro
+@import "../fonts/acumin.scss";
+
+// Star Rating
+@import "../plugins/star_rating/star-rating.css";
+
+// Components Folder
+@import "components/mixins";
+@import "components/variables";
+@import "components/reset";
+@import "components/buttons";
+@import "components/form";
+@import "components/header";
+@import "components/footer";
+@import "components/components";
+@import "components/section";
+@import "components/product.view";

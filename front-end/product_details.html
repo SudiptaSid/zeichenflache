@@ -1,0 +1,824 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Zeichenfläche</title>
+
+	<!-- App favicon -->
+    <link rel="shortcut icon" href="images/favicon.png">
+
+	<!-- Custom -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- Navbar -->
+	<section id="cs_nav">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg">
+				<a class="navbar-brand" href="#">
+					<img src="images/logo.png" alt="">
+				</a>
+				<button aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarContent" data-toggle="collapse" type="button">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarContent">
+					<ul class="navbar-nav nav_left">
+						<li class="nav-item dropdown megamenu">
+							<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="" id="megamneu1">Produkte <i class="fa fa-angle-down"></i></a>
+							<div aria-labelledby="megamneu1" class="dropdown-menu">
+								<div class="menu_body">
+									<div class="row">
+										<div class="col-md-4">
+											<h5>MegaMenu heading 1</h5>
+											<ul class="list-unstyled">
+												<li class="nav-item">
+													<a class="nav-link" href="">Unique Features</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Image Responsive</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Auto Carousel</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Newsletter Form</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<h5>MegaMenu heading</h5>
+											<ul class="list-unstyled">
+												<li class="nav-item">
+													<a class="nav-link" href="">Unique Features</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Image Responsive</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Auto Carousel</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Newsletter Form</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<h5>MegaMenu heading</h5>
+											<ul class="list-unstyled">
+												<li class="nav-item">
+													<a class="nav-link" href="">Unique Features</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Image Responsive</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Auto Carousel</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Newsletter Form</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item dropdown megamenu">
+							<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="" id="megamneu2">Kategorie <i class="fa fa-angle-down"></i></a>
+							<div aria-labelledby="megamneu2" class="dropdown-menu">
+								<div class="menu_body">
+									<div class="row">
+										<div class="col-md-4">
+											<h5>MegaMenu heading 2</h5>
+											<ul class="list-unstyled">
+												<li class="nav-item">
+													<a class="nav-link" href="">Unique Features</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Image Responsive</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Auto Carousel</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Newsletter Form</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<h5>MegaMenu heading</h5>
+											<ul class="list-unstyled">
+												<li class="nav-item">
+													<a class="nav-link" href="">Unique Features</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Image Responsive</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Auto Carousel</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Newsletter Form</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<h5>MegaMenu heading</h5>
+											<ul class="list-unstyled">
+												<li class="nav-item">
+													<a class="nav-link" href="">Unique Features</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Image Responsive</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Auto Carousel</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Newsletter Form</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item dropdown megamenu">
+							<a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="" id="megamneu3">Verkaufte Produkte <i class="fa fa-angle-down"></i></a>
+							<div aria-labelledby="megamneu3" class="dropdown-menu">
+								<div class="menu_body">
+									<div class="row">
+										<div class="col-md-4">
+											<h5>MegaMenu heading 3</h5>
+											<ul class="list-unstyled">
+												<li class="nav-item">
+													<a class="nav-link" href="">Unique Features</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Image Responsive</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Auto Carousel</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Newsletter Form</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<h5>MegaMenu heading</h5>
+											<ul class="list-unstyled">
+												<li class="nav-item">
+													<a class="nav-link" href="">Unique Features</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Image Responsive</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Auto Carousel</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Newsletter Form</a>
+												</li>
+											</ul>
+										</div>
+										<div class="col-md-4">
+											<h5>MegaMenu heading</h5>
+											<ul class="list-unstyled">
+												<li class="nav-item">
+													<a class="nav-link" href="">Unique Features</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Image Responsive</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Auto Carousel</a>
+												</li>
+												<li class="nav-item">
+													<a class="nav-link" href="">Newsletter Form</a>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="">Partners</a>
+						</li>
+					</ul>
+				</div>
+				<ul class="navbar-nav ml-auto nav_right">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="account_drp" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user"></i><span>Sign in</span>My accoount</a>
+						<div class="dropdown-menu" aria-labelledby="account_drp">
+							<a class="nav-link" href="#">Profile</a>
+							<a class="nav-link" href="#">Settings</a>
+							<a class="nav-link" href="#">Logout</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav-link">
+							<i class="fa fa-heart"></i>
+							<span>
+								<span>0</span>
+							</span>
+							Favorites
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</section>
+	<!-- Product Details Image -->
+	<section id="cs_pro_det_img">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="cs_count d_none">
+						<div class="cs_clock">
+							<i class="fa fa-clock-o"></i>
+							<div id="clock">
+								<!-- <div> <span id="hours"></span> <span class="smalls">HRS.</span> </div> : -->
+								<div> <span id="minutes"></span> <span class="smalls">MIN.</span> </div> :
+								<div> <span id="seconds"></span> <span class="smalls">SEC.</span> </div>
+							</div>
+						</div>
+						<div class="cs_txt">Verbleibende Zeit.</div>
+					</div>
+					<div class="img_box">
+						<div class="owl-carousel" id="more-views">
+							<div class="item">
+								<img src="images/product/pro_det1.jpg" alt="">
+							</div>
+							<div class="item">
+								<img src="images/product/pro_det2.jpg" alt="">
+							</div>
+							<div class="item">
+								<img src="images/product/pro_det3.jpg" alt="">
+							</div>
+							<div class="item">
+								<img src="images/product/pro_det4.jpg" alt="">
+							</div>
+							<div class="item">
+								<img src="images/product/pro_det5.jpg" alt="">
+							</div>
+						</div>
+						<a href="#cs_popup" class="pro_popup" title="" data-toggle="modal"></a>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="details_box">
+						<h3>APPLE iPad Wi-Fi, 9.7", 128 GB, Space Grey</h3>
+						<p>Verkäufer oMacStoore | <br> Product Release Date: 20.10.2019</p>
+						<p>
+							<input id="star-rating-demo" value="4" type="number" class="rating" min="0" max="5" step="1" data-size="xs">
+							<span class="small">(104) Verkäufer Reviews</span>
+						</p>
+						<p class="mt-4 mb-4">Plura mihi bona sunt, inclinet, amari petere vellent. Contra legem facit qui id facit quod lex prohibet.</p>
+						<p>Kaufpreis</p>
+						<h4><del>CHF 1150.00</del> CHF 600.00</h4>
+						<div class="cs_count m_none">
+							<div class="cs_clock">
+								<i class="fa fa-clock-o"></i>
+								<div id="clock">
+									<!-- <div> <span id="hours"></span> <span class="smalls">HRS.</span> </div> : -->
+									<div> <span id="minutes"></span> <span class="smalls">MIN.</span> </div> :
+									<div> <span id="seconds"></span> <span class="smalls">SEC.</span> </div>
+								</div>
+							</div>
+							<div class="cs_txt">Verbleibende Zeit.</div>
+						</div>
+						<div class="btn_Sec">
+							<a href="#" class="share_btn">
+								<i class="fa fa-share-alt"></i>
+								Share
+							</a>
+							<a href="#" class="share_btn">
+								<i class="fa fa-heart"></i>
+								Favourite
+							</a>
+						</div>
+						<div class="btn_Sec">
+							<a href="#" class="btn btn_pink">Kaufen</a>
+							<a href="#" class="btn btn_md_grey">Raum verlassen</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Product Details -->
+	<section id="cs_product_details">
+		<div class="des_nav">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<ul class="nav nav-tabs" id="myTab" role="tablist">
+							<li class="nav-item">
+								<a class="nav-link active" id="tab-1" data-toggle="tab" href="#tab1" role="tab" aria-controls="tab1" aria-selected="false">Beschreibung</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="tab-2" data-toggle="tab" href="#tab2" role="tab" aria-controls="tab2" aria-selected="false">Lieferung</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="tab-3" data-toggle="tab" href="#tab3" role="tab" aria-controls="tab3" aria-selected="false">Spezifikationen</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="tab-4" data-toggle="tab" href="#tab4" role="tab" aria-controls="tab4" aria-selected="true">Verkäufer Bewertung</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="tab-5" data-toggle="tab" href="#tab5" role="tab" aria-controls="tab5" aria-selected="false">Fragen & Antworten</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="des_details">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<div class="tab-content over_hid" id="myTabContent">
+							<div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab-1">
+								<div class="detail_grp">
+									<h3>APPLE iPad Wi-Fi, 9.7", 128 GB, Space Grey</h3>
+									<p>inkl. Smart Folio - Anthrazit</p>
+								</div>
+								<div class="detail_grp">
+									<h5>Abmessungen und Gewicht</h5>
+									<p>11" iPad Pro</p>
+									<p>Wi‑Fi Modelle</p>
+									<p>468 g</p>
+								</div>
+								<div class="detail_grp">
+									<h5>Lieferumfang</h5>
+									<p>iPad Pro</p>
+									<p>USB‑C Ladekabel (1 Meter)</p>
+									<p>18W USB‑C Power Adapter</p>
+									<p>Smart Folio - Anthrazit</p>
+								</div>
+								<div class="detail_grp">
+									<h5>Display</h5>
+									<p>Liquid Retina Display</p>
+									<p>11" Multi-Touch Display (27,96 cm Diagonale) mit LED Hintergrund-Beleuchtung und IPS Technologie</p>
+									<p>Auflösung von 2388 x 1668 Pixeln bei 264 ppi</p>
+									<p>ProMotion Technologie</p>
+									<p>Display mit grossem Farbraum (P3)</p>
+									<p>True Tone Display</p>
+									<p>Fettabweisende Beschichtung</p>
+									<p>Vollständig laminiertes Display</p>
+									<p>Antireflex-Beschichtung</p>
+									<p>1,8 % Reflexionsgrad</p>
+									<p>600 Nits Helligkeit</p>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab-2">
+								<div class="detail_grp">
+									<h5>Delivery & Installation details</h5>
+									<p>
+										<span>Delivery by</span>	
+										4 Nov, Monday
+									</p>
+									<p>
+										<span>Delivery Charge</span>
+										Free
+									</p>
+								</div>
+								<div class="detail_grp">
+									<h5>Installation Details</h5>
+									<p>This product doesn't require installation</p>
+								</div>
+								<div class="detail_grp">
+									<h5>Shipping Charges For Flipkart Assured Items</h5>
+									<p>Shipping charges are calculated based on the number of units, distance and delivery date.</p>
+									<p>For Plus customers, shipping charges are free.</p>
+									<p>For non-Plus customers, if the total value of FAssured items is more than Rs.500, shipping charges are free. If the total value of FAssured items is less than Rs.500, shipping charges = Rs.40 per unit</p>
+									<p>* For faster delivery, shipping charges will be applicable.</p>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab-3">
+								<div class="detail_grp">
+									<h5>General</h5>
+									<p>
+										<span>Model Number</span>
+										MR7F2HN/A
+									</p>
+									<p>
+										<span>Model Name</span>
+										iPad (6th Gen)
+									</p>
+									<p>
+										<span>Ideal Usage</span>
+										Entertainment, Gaming
+									</p>
+									<p>
+										<span>Color</span>
+										Space Grey
+									</p>
+									<p>
+										<span>Connectivity</span>
+										Wi-Fi Only
+									</p>
+								</div>
+								<div class="detail_grp">
+									<h5>Product Details</h5>
+									<p>
+										<span>Display Size</span>
+										24.64 cm (9.7 inch)
+									</p>
+									<p>
+										<span>Sales Package</span>
+										iPad, Lightning to USB Cable, USB Power Adapter, Quick Start Guide, Warranty Card
+									</p>
+									<p>
+										<span>Display Resolution</span>
+										2048 x 1536 Pixels
+									</p>
+									<p>
+										<span>Primary Camera</span>
+										8 Megapixels
+									</p>
+									<p>
+										<span>Connectivity</span>
+										Wi-Fi Only
+									</p>
+								</div>
+								<div class="detail_grp">
+									<h5>Battery Features</h5>
+									<p>
+										<span>Battery Type</span>
+										Li-ion Polymer
+									</p>
+									<p>
+										<span>Play Time</span>
+										Upto 10 hrs
+									</p>
+								</div>
+								<div class="detail_grp">
+									<h5>Business Features</h5>
+									<p>
+										<span>Document Viewer</span>
+										Yes
+									</p>
+									<p>
+										<span>E-mail</span>
+										Yes
+									</p>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab-4">
+								<div class="row">
+									<div class="col-lg-5 col-md-12">
+										<div class="main_rtng">
+											<div>
+												4.5 <i class="fa fa-star"></i>
+											</div>
+											<span>24,339 Ratings</span>
+										</div>
+										<div class="rtng_list">
+											<div class="prog_li">
+												<span>5.0 <i class="fa fa-star"></i></span>
+												<div class="progress">
+													<div class="progress-bar bg-success" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+												</div>
+											</div>
+											<div class="prog_li">
+												<span>4.0 <i class="fa fa-star"></i></span>
+												<div class="progress">
+													<div class="progress-bar bg-success" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+												</div>
+											</div>
+											<div class="prog_li">
+												<span>3.0 <i class="fa fa-star"></i></span>
+												<div class="progress">
+													<div class="progress-bar bg-success" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+												</div>
+											</div>
+											<div class="prog_li">
+												<span>2.0 <i class="fa fa-star"></i></span>
+												<div class="progress">
+													<div class="progress-bar bg-warning" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+												</div>
+											</div>
+											<div class="prog_li">
+												<span>1.0 <i class="fa fa-star"></i></span>
+												<div class="progress">
+													<div class="progress-bar bg-danger" role="progressbar" style="width: 20%;" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-5 col-md-12 offset-lg-2">
+										<div class="vendor_details">
+											<h4>Vendor Details</h4>
+											<p><label for="">Name :</label> John Doe</p>
+											<p><label for="">Address :</label> 325 Stand Park Rd. Buffalo, NY 02548</p>
+											<p><label for="">Phone Number :</label> +02 325 365 5478</p>
+											<p><label for="">Email :</label> example@gmail.com</p>
+										</div>
+									</div>
+									<div class="col-12">
+										<div class="cs_cmnts">
+											<div class="row">
+												<div class="col-12 mb-4">
+													<h4>Comments :</h4>
+													<div class="media">
+														<a class="pr-3" href="#">
+															<img class="" src="images/client_avt.png" alt="">
+														</a>
+														<div class="media-body">
+															<h5 class="mt-0">
+																Media heading
+																<div class="right_pan">
+																	<span class="right_date">16/02-2018</span>
+																</div>
+															</h5>
+															<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+															
+															<div class="media mt-3">
+																<a class="pr-3" href="#">
+																	<img class="" src="images/client_avt.png" alt="">
+																</a>
+																<div class="media-body">
+																	<h5 class="mt-0">
+																		Media heading 
+																		<div class="right_pan">
+																			<span class="right_date">16/02-2018</span>
+																		</div>
+																	</h5>
+																	<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+																	
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="media">
+														<a class="pr-3" href="#">
+															<img class="" src="images/client_avt.png" alt="">
+														</a>
+														<div class="media-body">
+															<h5 class="mt-0">
+																Media heading
+																<div class="right_pan">
+																	<span class="right_date">16/02-2018</span>
+																</div>
+															</h5>
+															<p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane fade" id="tab5" role="tabpanel" aria-labelledby="tab-5">
+								<div id="accordion" class="accordion">
+									<div class="row">
+										<div class="col-md-6">
+											<div class="gridi">
+												<div class="acc_title" data-toggle="collapse" href="#coll1">
+													<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit?</h4>
+												</div>
+												<div id="coll1" class="collapse show" data-parent="#accordion" >
+													<p>We are not a cleaning agency or cleaning company, we're an intermediary platform that helps match customers like you with self-employed cleaners. Through Helpling, you can book a cleaner in 60 seconds. Once you have booked a cleaner you should arrange with them what specific cleaning tasks you would like them to undertake, for example ironing or oven cleaning.</p>
+												</div>
+											</div>
+											<div class="gridi">
+												<div class="acc_title collapsed" data-toggle="collapse" data-parent="#accordion" href="#coll3">
+													<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit?</h4>
+												</div>
+												<div id="coll3" class="collapse" data-parent="#accordion" >
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dignissimos, perspiciatis, quae quisquam sapiente deleniti quia exercitationem numquam atque ea nemo pariatur itaque velit ipsam nostrum! Provident esse placeat modi, facere nihil voluptas iure nam.</p>
+												</div>
+											</div>
+											<div class="gridi">
+												<div class="acc_title collapsed" data-toggle="collapse" data-parent="#accordion" href="#coll5">
+													<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit?</h4>
+												</div>
+												<div id="coll5" class="collapse" data-parent="#accordion" >
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dignissimos, perspiciatis, quae quisquam sapiente deleniti quia exercitationem numquam atque ea nemo pariatur itaque velit ipsam nostrum! Provident esse placeat modi, facere nihil voluptas iure nam.</p>
+												</div>
+											</div>
+											<div class="gridi">
+												<div class="acc_title collapsed" data-toggle="collapse" data-parent="#accordion" href="#coll7">
+													<h4>Lorem ipsum dolor sit amet consectetur adipisicing elit?</h4>
+												</div>
+												<div id="coll7" class="collapse" data-parent="#accordion" >
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dignissimos, perspiciatis, quae quisquam sapiente deleniti quia exercitationem numquam atque ea nemo pariatur itaque velit ipsam nostrum! Provident esse placeat modi, facere nihil voluptas iure nam.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="gridi">
+												<div class="acc_title collapsed" data-toggle="collapse" data-parent="#accordion" href="#coll2">
+													<h4>What cleaning supplies do I have to provide?</h4>
+												</div>
+												<div id="coll2" class="collapse" data-parent="#accordion" >
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dignissimos, perspiciatis, quae quisquam sapiente deleniti quia exercitationem numquam atque ea nemo pariatur itaque velit ipsam nostrum! Provident esse placeat modi, facere nihil voluptas iure nam.</p>
+												</div>
+											</div>
+											<div class="gridi">
+												<div class="acc_title collapsed" data-toggle="collapse" data-parent="#accordion" href="#coll4">
+													<h4>Do I need to be home for the booking?</h4>
+												</div>
+												<div id="coll4" class="collapse" data-parent="#accordion" >
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dignissimos, perspiciatis, quae quisquam sapiente deleniti quia exercitationem numquam atque ea nemo pariatur itaque velit ipsam nostrum! Provident esse placeat modi, facere nihil voluptas iure nam.</p>
+												</div>
+											</div>
+											<div class="gridi">
+												<div class="acc_title collapsed" data-toggle="collapse" data-parent="#accordion" href="#coll6">
+													<h4>Do I need to do anything before they arrive?</h4>
+												</div>
+												<div id="coll6" class="collapse" data-parent="#accordion" >
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dignissimos, perspiciatis, quae quisquam sapiente deleniti quia exercitationem numquam atque ea nemo pariatur itaque velit ipsam nostrum! Provident esse placeat modi, facere nihil voluptas iure nam.</p>
+												</div>
+											</div>
+											<div class="gridi">
+												<div class="acc_title collapsed" data-toggle="collapse" data-parent="#accordion" href="#coll8">
+													<h4>What cleaning supplies do I have to provide?</h4>
+												</div>
+												<div id="coll8" class="collapse" data-parent="#accordion" >
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dignissimos, perspiciatis, quae quisquam sapiente deleniti quia exercitationem numquam atque ea nemo pariatur itaque velit ipsam nostrum! Provident esse placeat modi, facere nihil voluptas iure nam.</p>
+												</div>
+											</div>
+											<div class="gridi">
+												<div class="acc_title collapsed" data-toggle="collapse" data-parent="#accordion" href="#coll9">
+													<h4>Do I need to be home for the booking?</h4>
+												</div>
+												<div id="coll9" class="collapse" data-parent="#accordion" >
+													<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dignissimos, perspiciatis, quae quisquam sapiente deleniti quia exercitationem numquam atque ea nemo pariatur itaque velit ipsam nostrum! Provident esse placeat modi, facere nihil voluptas iure nam.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="read_more">
+								<a href="javascript:void(0)" class="btn btn_linkp" id="cs_rdmre">Read more...</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Share -->
+	<section id="cs_share">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<ul>
+						<li>
+							<span>Share Product</span>
+						</li>
+						<li>
+							<a href="#" class="share_btn">
+								<i class="fa fa-share-alt"></i>
+								E-Mail
+							</a>
+						</li>
+						<li>
+							<a href="#" class="share_btn">
+								<i class="fa fa-share-alt"></i>
+								Facebook
+							</a>
+						</li>
+						<li>
+							<a href="#" class="share_btn">
+								<i class="fa fa-share-alt"></i>
+								What‘s App
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Footer -->
+	<footer>
+		<!-- Footer Top -->
+		<section id="footer_top">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<ul class="clearfix">
+							<li><img src="images/fpart1.jpg" alt=""></li>
+							<li><img src="images/fpart2.jpg" alt=""></li>
+							<li><img src="images/fpart3.jpg" alt=""></li>
+							<li><img src="images/fpart4.jpg" alt=""></li>
+							<li><img src="images/fpart5.jpg" alt=""></li>
+							<li><img src="images/fpart6.jpg" alt=""></li>
+							<li><img src="images/fpart7.jpg" alt=""></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- Footer Bottom -->
+		<section id="footer_bottom">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3 col-md-3">
+						<h4>Bestellen</h4>
+						<ul>
+							<li><a href="#">Geschenkkarte</a></li>
+							<li><a href="#">Zahlungsarten</a></li>
+							<li><a href="#">Versandkosten</a></li>
+							<li><a href="#">Retouren</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-md-3">
+						<h4>Rech</h4>
+						<ul>
+							<li><a href="#">Impressum</a></li>
+							<li><a href="#">Nutzungsbedingungen</a></li>
+							<li><a href="#">Datenschutzbestimmungen</a></li>
+							<li><a href="#">AGB</a></li>
+							<li><a href="#">Produktrückrufe</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-md-3">
+						<h4>Unternehmen</h4>
+						<ul>
+							<li><a href="#">Über uns</a></li>
+							<li><a href="#">Jobs</a></li>
+							<li><a href="#">Presse</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-3 col-md-3">
+						<h4>Hilfe</h4>
+						<ul>
+							<li><a href="#">FAQs & Kontakt</a></li>
+						</ul>
+						<h4>Social Media</h4>
+						<div class="f_social">
+							<a href="#"><i class="fa fa-facebook-f"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-instagram"></i></a>
+							<a href="#"><i class="fa fa-youtube"></i></a>
+							<a href="#"><i class="fa fa-google"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</footer>
+
+	<!-- Popup -->
+	<div class="modal fade " id="cs_popup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+		<div class="modal-dialog modal-lg" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<div class="owl-carousel" id="pop_up">
+						<div class="item">
+							<img src="images/product/pro_det1.jpg" alt="">
+						</div>
+						<div class="item">
+							<img src="images/product/pro_det2.jpg" alt="">
+						</div>
+						<div class="item">
+							<img src="images/product/pro_det3.jpg" alt="">
+						</div>
+						<div class="item">
+							<img src="images/product/pro_det4.jpg" alt="">
+						</div>
+						<div class="item">
+							<img src="images/product/pro_det5.jpg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Jquery min -->
+	<script src="js/jquery.min.js"></script>
+
+	<!-- Popper Min -->
+	<script src="plugins/bootstrap/js/popper.min.js"></script>
+
+	<!-- Bootstrap -->
+	<script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Owl Carousel -->
+	<script src="plugins/owl-carousel/js/owl.carousel.min.js"></script>
+	<script src="plugins/owl-carousel/js/OwlCarousel2Thumbs.min.js"></script>
+
+	<!-- Star Rating -->
+	<script src="plugins/star_rating/star-rating.js"></script>
+
+	<!-- Date Countdown -->
+	<script src="plugins/countdown/countdown.js"></script>
+
+	<!-- Custom -->
+	<script src="js/default.js"></script>
+</body>
+</html>

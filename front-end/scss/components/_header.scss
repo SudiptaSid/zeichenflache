@@ -1,0 +1,186 @@
+/* ---------- Header ---------- */
+#cs_nav {
+    background-color:$white_clr;
+    border-bottom:$border_e5;
+    .navbar {
+        padding:10px 0px;
+        @media (max-width: $break_991) {
+            padding:10px 0px;
+        }
+    }
+    .navbar-brand {
+        width:60px;
+        height:60px;
+        padding:0px;
+        img {
+            width:100%;
+        }
+        @media (max-width: $break_991) {
+            width:45px;
+            height:45px;
+            margin-right:2px;
+        }
+    }
+    .navbar-toggler {
+        padding:5px;
+        border:$border_444;
+        &:focus {
+            outline:$none;
+        }
+        .navbar-toggler-icon {
+            background-image: url(../images/menu.png);
+        }
+        @media (max-width: $break_991) {
+            order:1;
+        }
+    }
+    .megamenu {
+        position: static;
+        .dropdown-menu {
+            width:100%;
+            background-color:$no_clr;
+            margin: 0;
+            padding: 0;
+            border:$none;
+        }
+        .dropdown-toggle::after {
+            display:$none;
+        }
+    }
+    .nav-link {
+        color:$drk_grey;
+        &:hover, &.active, &:focus {
+            color:$pink_clr;
+        }
+    }
+    .nav_left {
+        h5 {
+            font-size:1.1em;
+            margin-bottom:10px;
+        }
+        .nav-item {
+            margin-right:10px;
+            .nav-item {
+                margin-right:0px;
+                .nav-link {
+                    padding:5px 5px 5px 0px;
+                }
+            }
+        }
+    }
+    .nav_right {
+        .nav-item {
+            margin-left:30px;
+            .dropdown-menu {
+                padding:0px;
+                margin-top: 10px;
+                border-radius: 0px;
+                .nav-link {
+                    padding:8px;
+                }
+                @media (max-width: $break_991) {
+                    position: absolute;
+                }
+            }
+            @media (max-width: $break_991) {
+                margin-left:0px;
+                margin-right:5px;
+                display:$inline_block;
+            }
+        }
+        .nav-link {
+            position: relative;
+            padding-left:30px;
+            line-height: 1.2;
+            i {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 0;
+                font-size: 1.2em;
+                color:$pink_clr;
+            }
+            span {
+                display:$block;
+                span {
+                    background-color:$lght_blue;
+                    color:$white_clr;
+                    display:$inline_block;
+                    border-radius: 20px;
+                    line-height: 26px;
+                    width: 24px;
+                    height: 24px;
+                    text-align: center;
+                    font-size: 0.8em;
+                }
+                @media (max-width: $break_991) {
+                    display: none;
+                }
+            }
+            @media (max-width: $break_991) {
+                padding-left:20px;
+            }
+        }
+        @media (max-width: $break_991) {
+            margin: auto;
+            display:$block;
+        }
+    }
+    .menu_body {
+        margin:auto;
+        max-width:1200px;
+        background-color:$white_clr;
+        padding:1em;
+    }
+    .dropdown-menu {
+        font-size:1em;
+    }
+    .navbar-collapse {
+        @media (max-width: $break_991) {
+            position: absolute;
+            left: 0;
+            top: 100%;
+            z-index: 99;
+            background-color:$white_clr;
+            width: 100%;
+            padding: 10px;
+        }
+    }
+}
+/* ---------- Heading ---------- */
+#cs_heading {
+    padding:20px 0px;
+    background-color:$white_clr;
+    border-bottom:$border_e5;
+    h3 {
+        margin-bottom:0px;
+    }
+    form {
+        float: right;
+        position: relative;
+        border-radius: 5px;
+        overflow:$hidden;
+        .form-control {
+            background-color:$lght_grey;
+            min-width:300px;
+            border:$none;
+            padding: 10px 65px 10px 15px;
+            font-size:16px;
+        }
+        button {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50px;
+            height: 100%;
+            font-size: 19px;
+            background-color:$pink_clr;
+            border:$none;
+            color:$white_clr;
+            cursor: pointer;
+            &:focus {
+                outline:$none;
+            }
+        }
+    }
+}

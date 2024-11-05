@@ -1,0 +1,43 @@
+// Font
+$base_fz                :   16px !default;
+$main_font              :   "acumin-pro",sans-serif;
+$fw_700                 :   700;
+$fw_700i                :   italic;
+$fw_400                 :   400;
+$fw_400i                :   italic;
+
+// Color
+$no_clr                :   transparent;
+$white_clr             :   #fff;
+$pink_clr              :   #f50b7f;
+$lght_pink_clr         :   #fbeef7;
+$lght_grey             :   #f4f4f4;
+$medium_grey           :   #999;
+$drk_grey              :   #444 !default;
+$black_clr             :   #000;
+$lght_blue             :   #b7c0c8;
+$green_clr             :   #37b400;
+
+// Other
+$block              :   block;
+$inline_block       :   inline-block;
+$none               :   none;
+$hidden             :   hidden;
+$capital            :   capitalize;
+
+// Border
+$border_e5          :   1px solid #e5e5e5;
+$border_pink        :   1px solid $pink_clr;
+$border_444         :   1px solid $drk_grey;
+$border_999         :   1px solid $medium_grey;
+
+$border_e5_2        :   2px solid #e5e5e5;
+$border_pink_2      :   2px solid $pink_clr;
+
+// Media Queries
+$break_1280         :   1280px;
+$break_1240         :   1240px;
+$break_991          :   991px;
+$break_1080         :   1080px;
+$break_850          :   850px;
+$break_768          :   768px;
